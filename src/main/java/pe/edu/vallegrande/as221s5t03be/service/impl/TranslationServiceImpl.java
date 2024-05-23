@@ -89,8 +89,7 @@ public class TranslationServiceImpl implements TranslationService {
 
                         return translationRepository.save(translation)
                                 .map(this::mapResponse);
-                    } catch (IOException e) {
-                        e.printStackTrace();
+                    } catch (IOException e){
                         return Mono.error(e);
                     }
                 });
