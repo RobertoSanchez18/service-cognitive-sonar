@@ -14,6 +14,8 @@
 	<name>AS221S5_T03_be</name>
 	<description>API de servicio cognitivo con spring boot + base de datos (cloud)</description>
 	<properties>
+		<sonar.organization>robertosanchez18</sonar.organization>
+ 		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
 		<java.version>17</java.version>
 	</properties>
 	<dependencies>
