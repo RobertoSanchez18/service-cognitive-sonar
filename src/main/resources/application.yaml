@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: AS221S5_T03_be
+  r2dbc:
+    url: r2dbc:postgresql://viaduct.proxy.rlwy.net:18319/postgres
+    username: postgres
+    password: UpCBWjFkFbPuANzOOJCqLgenyCALLtCQ
+    driver-class-name: org.postgresql.Driver
