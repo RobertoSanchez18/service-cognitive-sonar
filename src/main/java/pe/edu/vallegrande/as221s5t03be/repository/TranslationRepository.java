@@ -18,4 +18,6 @@ public interface TranslationRepository extends ReactiveCrudRepository<Translatio
     @Query("UPDATE translations SET state=true WHERE id=:id")
     Mono<Void> restoreById(Long id);
 
+    // prueba
+
 }
