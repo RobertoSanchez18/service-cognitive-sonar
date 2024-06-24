@@ -68,4 +68,6 @@ public class TranslationController {
     public Mono<Void> restaurar(@PathVariable Long id) {
         return translationService.restaurar(id);
     }
+
+    // Comentario
 }
